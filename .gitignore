@@ -1,0 +1,30 @@
+
+# Python virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local vector database
+chroma_db_nomic/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Old backup implementation
+rag_backup.py
+#  Source documents excluded for the initial upload
+data/
+test-data/
